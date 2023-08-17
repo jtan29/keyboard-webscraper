@@ -19,7 +19,7 @@ class Ashkeebs(base.BaseScraper):
             products = product_page.find_all('li')
             for item in products:
                 title = item.find('h3').find('a').text
-                vendor = title.lower()
+                vendor = title
                 price = item.find('span', class_='woocommerce-Price-amount amount').find('bdi').text
                 product_type = 'keycaps'
                 data = [[title, vendor, price, product_type, "Ashkeebs"]]
