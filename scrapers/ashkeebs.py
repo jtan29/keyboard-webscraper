@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
-from Scrapers import base
+from scrapers import base
 
 
 class Ashkeebs(base.BaseScraper):

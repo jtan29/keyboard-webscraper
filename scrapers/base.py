@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 class BaseScraper:
 
     def __init__(self):

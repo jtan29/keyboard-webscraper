@@ -1,9 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
-from Scrapers import base
+from scrapers import base
 import pandas as pd
-
-
 
 
 class Deskhero(base.BaseScraper):

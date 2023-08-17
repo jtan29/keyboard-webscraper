@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-from Scrapers import shockport, oneofzero, deskhero, ashkeebs
+from scrapers import shockport, oneofzero, deskhero, ashkeebs
 from PIL import Image
 from plotnine import *
 
